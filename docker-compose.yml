@@ -47,7 +47,7 @@ services:
     image: n8nio/n8n:latest
     platform: linux/amd64
     environment:
-      WEBHOOK_URL: http://157.230.135.83/:5678
+      WEBHOOK_URL: http://157.230.135.83:5678
       N8N_HOST: 157.230.135.83
       GENERIC_TIMEZONE: America/Sao_Paulo
       N8N_LOG_LEVEL: debug
