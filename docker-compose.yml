@@ -33,6 +33,9 @@ services:
     image: devlikeapro/waha:latest
     platform: linux/amd64
     environment:
+      WHATSAPP_HOOK_URL: http://157.230.135.83:5678/webhook/caiolindo/waha
+      WHATSAPP_DEFAULT_ENGINE: GOWS
+      WHATSAPP_HOOK_EVENTS: message
       WHATSAPP_DEFAULT_ENGINE: GOWS
       WAHA_NO_API_KEY: "true"
       WAHA_DASHBOARD_NO_PASSWORD: "true"
